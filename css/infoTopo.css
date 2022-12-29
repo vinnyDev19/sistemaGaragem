@@ -1,0 +1,27 @@
+.container-inf-topo {
+  background-color: var(--cor-amarela);
+}
+.lista-inf-topo {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  margin: 0;
+  height:auto;
+  padding: 5px;
+}
+.lista-inf-topo li {
+  font-family: var(--fonte-principal);
+  font-weight: 700;
+  margin: 0 15px;
+}
+.lista-inf-topo li a{
+    text-decoration: none;
+    color: #000;
+    display: flex;
+    align-items: center;
+}
+.lista-inf-topo li img {
+  margin-right: 6px;
+}
