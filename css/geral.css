@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Jura:wght@400;700&display=swap");
 @import url("infoTopo.css");
 @import url("header.css");
-@import url('gallery.prefixed.css');
+@import url('responsive.css');
 :root {
   --cor-amarela: #ffd300;
   --cor-cinza: #231f20;
@@ -31,7 +31,5 @@ li{
   align-items: center;
   justify-content: space-around;
   flex-wrap: wrap;
-}
-figure{
-  margin: 0;
+  overflow-x: hidden;
 }
